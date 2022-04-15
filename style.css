@@ -1,0 +1,59 @@
+.headimage
+{
+    width: 15%;
+}
+.heading
+{
+    display: flex;
+    justify-content: center;
+}
+body{
+  
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.message-left
+{
+    margin-bottom: 10px;
+    float: left;
+    padding: 2%;
+    clear: both;
+    border: 2px solid black;
+    background-color: aqua;
+    border-radius: 20px;
+}
+.message-right
+{
+    margin-bottom: 10px;
+    float: right;
+    clear: both;
+    padding: 2%;
+    border: 2px solid black;
+    background-color: rgb(128, 0, 113);
+    color: white;
+    border-radius: 20px;
+}
+.messagesend
+{
+    width: 600px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+    
+}
+#container
+{
+    background-color: aquamarine;
+    border: 2px solid black;
+    height: 300px;
+    padding: 10px;
+   overflow-y: auto;
+}
+.buttonsend
+{
+    width:100px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
