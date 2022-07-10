@@ -16,7 +16,7 @@ append=(message,position)=>
     console.log(message);
     if(position=='message-left')
     {
-        audio.play();
+        audio.play(); 
     }
     
 }
